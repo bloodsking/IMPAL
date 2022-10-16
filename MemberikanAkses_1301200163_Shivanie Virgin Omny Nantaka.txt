@@ -1,17 +1,13 @@
 ﻿Shivanie Virgin Omny Nantaka		IF-44-11
 1301200163		PSPEC
 
-Nomor
-Anter_02
-Nama
-Memberikan akses
-Deskripsi
-User memberikan akses lokasi
-Input
-Opsi yang diinginkan
-Tanggapan sistem
-Memasuki halaman pencarian
-Code
+Nomor: Anter_02
+Nama: Memberikan akses
+Deskripsi: User memberikan akses lokasi
+Input: Opsi yang diinginkan
+Tanggapan sistem: Memasuki halaman pencarian
+Code:
+
 def memberikanAkses() : 
     akses = input(“Izinkan akses lokasi?”)
     confirm = access(akses)
@@ -19,4 +15,3 @@ def memberikanAkses() :
           if confirm==true
                return homepage()
           memberikanAkses()
-
