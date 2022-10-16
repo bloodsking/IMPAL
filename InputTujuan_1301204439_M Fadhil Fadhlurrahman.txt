@@ -1,0 +1,12 @@
+Nomor	Anter_04
+Nama	Input tujuan
+Deskripsi	User memasukan tujuan yang ingin dia tuju
+Input	Tujuan yang ingin dituju
+Tanggapan sistem	Memberikan jalur yang ada
+Code	def tujuan() : 
+   tujuan  = input(“Masukkan tujuan: “)
+   rute  = rute_efisien(tujuan)
+   if rute == True :
+      return jalur()
+   else : 
+      return notfound()
