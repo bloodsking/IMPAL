@@ -1,0 +1,25 @@
+Nomor: Anter_003
+Nama: Offline Mode
+Deskripsi: Aplikasi menggunakan mode offline
+Input: 
+Tanggapan sistem: Sistem memeriksa koneksi internet kemudian aplikasi berjalan menggunakan mode offline.
+
+Code
+
+def checkInternet(url, timeout):
+	
+	try:
+		request = requests.get(url, timeout=timeout)
+		return true
+	except (requests.ConnectionError, requests.Timeout) as exception:
+		return false
+
+def offlineMode():
+	
+	url = teluanter.telkomuniversity.ac.id
+	timeout = 200
+
+	if checkInternet(url, timeout) == false:
+		offlineInterface()
+
+
