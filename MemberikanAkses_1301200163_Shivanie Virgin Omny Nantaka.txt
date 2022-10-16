@@ -1,11 +1,8 @@
-﻿Shivanie Virgin Omny Nantaka		IF-44-11
-1301200163		PSPEC
-
-Nomor: Anter_02
-Nama: Memberikan akses
-Deskripsi: User memberikan akses lokasi
-Input: Opsi yang diinginkan
-Tanggapan sistem: Memasuki halaman pencarian
+Nomor       : Anter_02
+Nama        : Memberikan akses
+Deskripsi   : User memberikan akses lokasi
+Input       : Opsi yang diinginkan
+Tanggapan sistem : Memasuki halaman pencarian
 Code:
 
 def memberikanAkses() : 
