@@ -1,0 +1,26 @@
+
+Nomor: Anter_001
+Nama: Login
+Deskripsi: Pengguna memasukan email dan password 
+Input: Email SSO, Password
+Tanggapan sistem: Sistem memvalidasi email SSO Telkom dan password kemudian masuk ke homepage Tel-U Anter
+
+Code
+
+def login() : 
+   email = input(“Masukkan email : “)
+   pass = input(“Masukkan password : ”)
+   validasi = validate(email, pass)
+   if validasi == True :
+      return Homepage()
+   else : 
+      return login()
+
+def validate(email, pass) :
+    for I in range(len(dataSSO())): 
+           if(email == SSO) and (pass == True):
+                   Homepage()
+          Else:
+                   Login()
+
+
